@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&family=Karla:ital@0;1&display=swap');
+
+.karla {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.be-vietnam-pro-semibold {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+:root {
+    --color-primary: #FFFCF2;
+    --color-secondary: #252422;
+    --mala-boja: #EB5E28;
+    --text: #CCC5B9;
+    --text2: #403D39;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    background-color: var(--color-primary);
+    color: var(--text2);
+}
+
+body h1, h2, h3 {
+    color: var(--text2);
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.navbar {
+    background-color: #252422;
+    font-family: "Karla", sans-serif;
+    color: var(--color-secondary);
+}
+
+.navbar a {
+    transition: color 0.5s ease;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: var(--mala-boja);
+}
+
+header {
+    background-color: var(--mala-boja) ;
+}
+
+header .container h1 {
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: var(--text2); 
+}
+
+figcaption {
+    padding-left: 5px;
+}
+
+figcaption a {
+    color: #403D39;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+figcaption a:hover {
+    color: var(--mala-boja);
+}
+
+#usluge .card {
+    background-color: var(--text);
+    color: var(--text2);
+    margin-bottom: 10px;
+    transition: box-shadow 0.5s ease-in-out, margin-top 0.5s ease;
+}
+
+#usluge .card:hover {
+    box-shadow: 0px 29px 35px -17px #eb5f283f;
+    margin-top: 10px;
+}
+
+section .py-5 {
+    background-color: var(--color-secondary);
+}
+
+footer {
+    color: var(--text);
+    background-color: var(--color-secondary);
+}
