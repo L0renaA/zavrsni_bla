@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> TechFix Usluge </title>
+    <link rel="icon" type="image/x-icon" href="slike/ikonaT.ico">
+    <title> TechFix Servis </title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="zavrsni.css">
@@ -26,7 +28,7 @@
                     <li class="nav-item"><a class="nav-link" href="usluge.html"> Usluge </a></li>
                     <li class="nav-item"><a class="nav-link" href="#"> O nama </a></li>
                     <li class="nav-item"><a class="nav-link" href="#"> Galerija </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"> FAQ </a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html/#faq"> FAQ </a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html/#kontakt"> Kontakt </a></li>
                 </ul>
             </div>
@@ -34,58 +36,78 @@
     </nav>
     <header class="text-white text-center py-5" id="glavno">
         <div class="container">
-            <h1> TechFix usluge </h1>
-            <p class="lead"> Ovdje možete pročitati sve o našim uslugama.</p>
+            <h1> Naše Usluge </h1>
+            <p class="lead"> Brza i pouzdana rješenja za vaše tehničke probleme </p>
+            
         </div>
     </header>
-    <section id="usluge" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Naše usluge</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="slike/ciscenje.jpg" class="card-img-top" alt="čišćenje-računala">
-                        <figcaption class="text-muted">
-                            Izvor: <a href="https://www.pexels.com/" target="_blank"> <i> Pexels </i> </a>
-                        </figcaption>
-                        <div class="card-body">
-                            <h5 class="card-title">Popravak računala</h5>
-                            <p class="card-text">Brzo i efikasno popravljamo sve vrste računala i laptopa.</p>
-                        </div>
+    
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="slike/racunalo.jpg" class="card-img-top" alt="Popravak računala">
+                    <div class="card-body">
+                        <h5 class="card-title">Popravak računala</h5>
+                        <p class="card-text">Dijagnostika, popravak i nadogradnja računala svih vrsta. Rješavanje hardverskih i softverskih problema.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="slike/optimizacija.jpg" class="card-img-top" alt="Optimizacija">
-                        <figcaption class="text-muted">
-                            Izvor: <a href="https://www.pexels.com/" target="_blank"> <i> Pexels </i> </a>
-                        </figcaption>
-                        <div class="card-body">
-                            <h5 class="card-title"> Optimizacija sustava </h5>
-                            <p class="card-text"> Poboljšavamo performanse računala i uklanjamo viruse.</p>
-                        </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="slike/mobitel.jpg" class="card-img-top" alt="Popravak mobitela">
+                    <div class="card-body">
+                        <h5 class="card-title">Popravak mobitela</h5>
+                        <p class="card-text">Zamjena ekrana, baterije, matične ploče i popravak oštećenih konektora. Optimizacija performansi i rješavanje softverskih problema.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="slike/sastavljanje.jpg" class="card-img-top" alt="Montaža">
-                        <figcaption class="text-muted">
-                            Izvor: <a href="https://www.pexels.com/" target="_blank"> <i> Pexels </i> </a>
-                        </figcaption>
-                        <div class="card-body">
-                            <h5 class="card-title"> Sastavljanje računala </h5>
-                            <p class="card-text"> Pomažemo vam složiti idealno računalo prema vašim potrebama. </p>
-                        </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="slike/konzola.jpg" class="card-img-top" alt="Servis konzola">
+                    <div class="card-body">
+                        <h5 class="card-title">Servis konzola</h5>
+                        <p class="card-text">Popravak PlayStation, Xbox i Nintendo konzola. Čišćenje, zamjena termalne paste, rješavanje problema pregrijavanja.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="slike/mreza.jpg" class="card-img-top" alt="Mrežne instalacije">
+                    <div class="card-body">
+                        <h5 class="card-title">Mrežne instalacije</h5>
+                        <p class="card-text">Postavljanje i konfiguracija mrežnih rješenja za domove i poslovne prostore. Optimizacija Wi-Fi signala i sigurnosna podešavanja.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="slike/podaci.jpg" class="card-img-top" alt="Spašavanje podataka">
+                    <div class="card-body">
+                        <h5 class="card-title">Spašavanje podataka</h5>
+                        <p class="card-text">Obnova izgubljenih podataka s HDD diskova, USB uređaja i sl. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="slike/softver.jpg" class="card-img-top" alt="Instalacija softvera">
+                    <div class="card-body">
+                        <h5 class="card-title"> Instalacija softvera
+                        </h5>
+                        <p class="card-text">Instalacija i podešavanje operativnih sustava, antivirusnih programa i poslovnih aplikacija.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <footer class=" text-white text-center py-3">
-        <p>&copy; 2025 TechFix. Sva prava pridržana.</p>
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 TechFix | Sva prava pridržana</p>
     </footer>
-            
-            
+    
 </body>
 </html>
