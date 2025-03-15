@@ -79,6 +79,18 @@ figcaption a:hover {
     color: var(--mala-boja);
 }
 
+#usluge1 .card {
+    background-color: var(--text);
+    color: var(--text2);
+    margin-bottom: 10px;
+    transition: box-shadow 0.5s ease-in-out, margin-top 0.5s ease;
+}
+
+#usluge1 .card:hover {
+    box-shadow: 0px 29px 35px -17px #eb5f283f;
+    margin-top: 10px;
+}
+
 #usluge .card {
     background-color: var(--text);
     color: var(--text2);
@@ -86,16 +98,29 @@ figcaption a:hover {
     transition: box-shadow 0.5s ease-in-out, margin-top 0.5s ease;
 }
 
-button .accordion-button .collapse {
-    color: #EB5E28;
-}
-
 #usluge .card:hover {
     box-shadow: 0px 29px 35px -17px #eb5f283f;
     margin-top: 10px;
 }
 
+button .accordion-button .collapse {
+    color: #EB5E28;
+}
+
+
+
 section .py-5 {
+    background-color: var(--color-secondary);
+}
+
+.btn:hover {
+    border: none;
+    background-color: var(--mala-boja);
+}
+
+.btn {
+    border: none;
+    color: var(--text);
     background-color: var(--color-secondary);
 }
 
