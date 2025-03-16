@@ -113,8 +113,6 @@ figcaption a:hover {
 }
 
 #usluge .card:hover {
-    -webkit-box-shadow: 0px 62px 54px -10px rgba(0,0,0,0.15);
-    -moz-box-shadow: 0px 62px 54px -10px rgba(0,0,0,0.15);
     box-shadow: 0px 62px 54px -10px rgba(0,0,0,0.15);
     margin-top: 10px;
 }
@@ -123,7 +121,6 @@ figcaption a:hover {
 button .accordion-button .collapse {
     color: var(--mala-boja);
 }
-
 
 
 section .py-5 {
@@ -139,6 +136,17 @@ section .py-5 {
     border: none;
     color: var(--text);
     background-color: var(--color-secondary);
+}
+
+.col-md-4 img {
+    filter: saturate(0);
+    transition: transform 0.5s ease-out, box-shadow 0.5s ease, filter 0.5s ease;
+}
+
+.col-md-4 img:hover {
+    filter: saturate(1);
+    box-shadow: 0px 22px 29px 9px rgba(0, 0, 0, 0.301);
+    transform: scale(1.1);
 }
 
 footer {

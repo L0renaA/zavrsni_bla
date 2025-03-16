@@ -18,179 +18,70 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html"> <img src="logo.svg" alt="TechFix-logo" width="140"> </a>
+            <a class="navbar-brand" href="index.html"> <img src="slike/logo.svg" alt="TechFix-logo" width="140"> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html"> Početna </a></li>
-                    <li class="nav-item"><a class="nav-link" href="usluge.html"> Usluge </a></li>
-                    <li class="nav-item"><a class="nav-link" href="o_nama.html"> O nama </a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#onama"> O nama </a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#usluge"> Usluge </a></li>                    
+                    <li class="nav-item"><a class="nav-link" href="index.html#faq"> FAQ </a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#kontakt"> Kontakt </a></li>
                     <li class="nav-item"><a class="nav-link" href="galerija.html"> Galerija </a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html/#faq"> FAQ </a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html/#kontakt"> Kontakt </a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <header class="text-white text-center py-5" id="glavno">
         <div class="container">
-            <h1> Dobrodošli u TechFix </h1>
-            <p class="lead"> Vaš pouzdan servis za popravak i održavanje računala. </p>
+            <h1> Dobrodošli u TechFix Galeriju slika! </h1>
+            <p class="lead"> Ovdje možete pogledati naše radove. </p>
         </div>
     </header>
     
-    <section id="usluge" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Naše usluge</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="slike/ciscenje.jpg" class="card-img-top" alt="čišćenje-računala">
-                        <figcaption class="text-muted">
-                            Izvor: <a href="https://www.pexels.com/" target="_blank"> <i> Pexels </i> </a>
-                        </figcaption>
-                        <div class="card-body">
-                            <h5 class="card-title">Popravak računala</h5>
-                            <p class="card-text">Brzo i efikasno popravljamo sve vrste računala i laptopa.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="slike/optimizacija.jpg" class="card-img-top" alt="Optimizacija">
-                        <figcaption class="text-muted">
-                            Izvor: <a href="https://www.pexels.com/" target="_blank"> <i> Pexels </i> </a>
-                        </figcaption>
-                        <div class="card-body">
-                            <h5 class="card-title">Optimizacija sustava</h5>
-                            <p class="card-text">Poboljšavamo performanse računala i uklanjamo viruse.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="slike/sastavljanje.jpg" class="card-img-top" alt="Montaža">
-                        <figcaption class="text-muted">
-                            Izvor: <a href="https://www.pexels.com/" target="_blank"> <i> Pexels </i> </a>
-                        </figcaption>
-                        <div class="card-body">
-                            <h5 class="card-title"> Sastavljanje računala </h5>
-                            <p class="card-text"> Pomažemo vam složiti idealno računalo prema vašim potrebama. </p>
-                        </div>
-                    </div>
-                </div>
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Naša Galerija</h2>
+        <div class="row g-4">
+            <!-- Slike galerije -->
+            <div class="col-md-4">
+                <img src="slike/konzole.jpg" class="gallery-img img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal1">
+            </div>
+            <div class="col-md-4">
+                <img src="slike/ciscenje.jpg" class="gallery-img img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal2">
+            </div>
+            <div class="col-md-4">
+                <img src="slike/podaci.jpg" class="gallery-img img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal3">
             </div>
         </div>
-    </section>
-    <section class="text-center py-5">
-        <h2> Evo što sve nudimo: </h2>
-        <div class="container">
-            <video controls class="w-100">
-                <source src="#" type="video/mp4">
-                Ne mogu učitati videozapis.
-            </video>
-        </div>
-    </section>
-    <section class="py-5">
-        <div class="container">
-            <h2 class="text-center">Što kažu naši klijenti?</h2>
-            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="text-center">
-                            <p class="lead">"Brza usluga i odlično odrađen posao!"</p>
-                            <small> - Marko </small>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="text-center">
-                            <p class="lead">"Odličan servis, profesionalni i korektni!"</p>
-                            <small> - Ana</small>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="text-center">
-                            <p class="lead">"Radnici su jako ljubazni, napravili su sve što sam tražio."</p>
-                            <small> - Ivan </small>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
+        <br>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <img src="slike/mrezne.jpg" class="gallery-img img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal1">
+            </div>
+            <div class="col-md-4">
+                <img src="slike/sastavljanje.jpg" class="gallery-img img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal2">
+            </div>
+            <div class="col-md-4">
+                <img src="slike/softver.jpg" class="gallery-img img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal3">
             </div>
         </div>
-    </section>
-    <section class="container my-5">
-    <h2 class="text-center mb-4">Često postavljana pitanja (FAQ)</h2>
-    <div class="accordion" id="faqAccordion">
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="faq1">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                    Kako mogu zakazati popravak?
-                </button>
-            </h2>
-            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                    Možete nas kontaktirati putem <a href="kontakt.html">kontakt forme</a> ili posjetiti naš servis kako biste dogovorili termin.
-                </div>
+        <br>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <img src="slike/stol.jpg" class="gallery-img img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal1">
             </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="faq2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                    Koliko traje popravak uređaja?
-                </button>
-            </h2>
-            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                    Vrijeme popravka ovisi o vrsti problema. Manji popravci mogu biti gotovi isti dan, dok složeniji mogu trajati nekoliko dana.
-                </div>
+            <div class="col-md-4">
+                <img src="slike/mojpc.jpg" class="gallery-img img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal2">
             </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="faq3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                    Nudite li garanciju na popravke?
-                </button>
-            </h2>
-            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                    Da, svi naši popravci dolaze s garancijom od 6 mjeseci, ovisno o vrsti popravka i zamijenjenim dijelovima.
-                </div>
+            <div class="col-md-4">
+                <img src="slike/cooler.jpg" class="gallery-img img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal3">
             </div>
         </div>
     </div>
-</section>
 
-    <section id="kontakt" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Kontaktirajte nas</h2>
-            <form>
-                <div class="mb-3">
-                    <label for="name" class="form-label"> Ime i prezime </label>
-                    <input type="text" class="form-control" id="name" placeholder="Vaše ime">
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label"> E-mail </label>
-                    <input type="email" class="form-control" id="email" placeholder="Vaš email">
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label"> Poruka </label>
-                    <textarea class="form-control" id="message" rows="3" placeholder="Vaša poruka"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary"> Pošalji </button>
-            </form>
-        </div>
-    </section>
-    <footer class=" text-white text-center py-3">
-        <p>&copy; 2025 TechFix. Sva prava pridržana.</p>
-    </footer>
+
             
             
 </body>
