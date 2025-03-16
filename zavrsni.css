@@ -13,6 +13,16 @@
     font-style: normal;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-secondary); 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--mala-boja); 
+}
+
 :root {
     --color-primary: #FFFCF2;
     --color-secondary: #252422;
@@ -43,7 +53,7 @@ body h1, h2, h3 {
 }
 
 .navbar {
-    background-color: #252422;
+    background-color: var(--color-secondary);
     font-family: "Karla", sans-serif;
     color: var(--color-secondary);
 }
@@ -70,7 +80,7 @@ figcaption {
 }
 
 figcaption a {
-    color: #403D39;
+    color: var(--text2);
     text-decoration: none;
     transition: color 0.5s ease;
 }
@@ -80,6 +90,7 @@ figcaption a:hover {
 }
 
 #usluge1 .card {
+    border: 0px;
     background-color: var(--text);
     color: var(--text2);
     margin-bottom: 10px;
@@ -87,11 +98,14 @@ figcaption a:hover {
 }
 
 #usluge1 .card:hover {
-    box-shadow: 0px 29px 35px -17px #eb5f283f;
+    -webkit-box-shadow: 0px 62px 54px -10px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 62px 54px -10px rgba(0,0,0,0.15);
+    box-shadow: 0px 62px 54px -10px rgba(0,0,0,0.15);
     margin-top: 10px;
 }
 
 #usluge .card {
+    border: 0px;
     background-color: var(--text);
     color: var(--text2);
     margin-bottom: 10px;
@@ -99,12 +113,15 @@ figcaption a:hover {
 }
 
 #usluge .card:hover {
-    box-shadow: 0px 29px 35px -17px #eb5f283f;
+    -webkit-box-shadow: 0px 62px 54px -10px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 62px 54px -10px rgba(0,0,0,0.15);
+    box-shadow: 0px 62px 54px -10px rgba(0,0,0,0.15);
     margin-top: 10px;
 }
 
+
 button .accordion-button .collapse {
-    color: #EB5E28;
+    color: var(--mala-boja);
 }
 
 
